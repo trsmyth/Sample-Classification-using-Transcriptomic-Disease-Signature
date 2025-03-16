@@ -22,6 +22,11 @@ Selected_Samples <- Selected_Samples %>% mutate(Disease_Status_Designation =
 
 setwd("")
 
+# Convert raw xml data downloaded from MeSH to an r data frame.
+# This can be drastically sped up if xml structural information added to function.
+# supp2024 <- xmlToDataFrame("supp2024.xml")
+# desc2024 <- xmlToDataFrame("desc2024.xml")
+
 # Import MeSH tree terms and positions
 mtrees2024 <- read.csv('mtrees2024.csv', header = FALSE)
 
