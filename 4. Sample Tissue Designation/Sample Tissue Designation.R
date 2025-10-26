@@ -4,8 +4,6 @@ rm(list = ls(all.names = TRUE)) # clears global environ
 library(tidyverse) # for data cleaning
 library(dplyr) 
 
-setwd("")
-
 # Import data
 load("Selected_Samples_Metadata.RData")
 
@@ -196,7 +194,6 @@ Selected_Samples <- Selected_Samples %>% mutate(Filtered_Tissue_Type =
 # Remove samples with undefined MeSH terms
 Selected_Samples <- Selected_Samples[which(is.na(Selected_Samples$Used_MeSH_Term) != TRUE), ]
 
-setwd("")
-
 save(Selected_Samples, 
+
      file = 'Selected_Defined_Samples.RData')
