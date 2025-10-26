@@ -6,8 +6,6 @@ library(dplyr)
 library(RSelenium)
 library(rvest)
 
-setwd("")
-
 # Import sample designations from DiSignAtlas. 
 # DiSignAtlas was accessed on 11/23/2024 including 
 # samples linked to each MeSH term category, 
@@ -50,8 +48,6 @@ Disease_information_Datasets <- Disease_information_Datasets[rownames(All_sample
 ######################################################################################################
 ######################################################################################################
 ######################################################################################################
-
-setwd("")
 
 # Set up firefox as driver
 rD <- rsDriver(browser = "firefox",
@@ -132,6 +128,8 @@ rm(list = setdiff(ls(), c('All_sample_designations',
 # Create a list of the files from your target directory
 file_list <- All_sample_designations$study.ID
 
+file_directory = '' # Directory of disease signature atlas datasets
+
 # Initiate a blank data frame, each iteration of the loop will append the data from the given file to this variable
 Samples <- list()
 
@@ -139,7 +137,7 @@ Samples <- list()
 for(i in 1:length(file_list)){
     
   # Import csv data
-  Imported_data <- read.csv(paste0('', # Add directory here
+  Imported_data <- read.csv(paste0(file_directory,
                                    file_list[i], 
                                    '_profile.csv'), 
                             skip = 1)
