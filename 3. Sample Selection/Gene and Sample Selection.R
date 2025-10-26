@@ -5,16 +5,12 @@ library(tidyverse) # for data cleaning
 library(dplyr) 
 library(edgeR)
 
-setwd("")
-
 # Import data
 load('Selected_Samples.RData')
 
-setwd("")
-
 # Disease names in DiSignDB do not necessarily align with MeSH terms.
 # Terms must be manually selected based on key word matching and literature searches.
-# write.csv(file = 'Disease_names.csv', unique(Selected_Samples$Disease_Name))
+write.csv(file = 'Disease_names.csv', unique(Selected_Samples$Disease_Name))
 
 MeSH_Added <- read.csv('Disease_names - MeSH Added.csv')
 
