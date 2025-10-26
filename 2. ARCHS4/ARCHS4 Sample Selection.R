@@ -7,12 +7,13 @@ library(tidyverse)
 library(tibble)
 
 # Load data corresponding to sample of interest
-load("")
+load("Samples_of_Interest.RData")
 
 colnames(Samples_of_Interest)[2] <- 'geo_accession'
 rownames(Samples_of_Interest) <- Samples_of_Interest$geo_accession
 
-destination_file = "" # Originally accessed on 11/23/2024
+# ARCHS originally accessed on 11/23/2024
+destination_file = "" # Location of ARCHS4v2.5 h5 file
 extracted_expression_file = "DiSignAtlas_Sample_Selected_expression_matrix.tsv"
 
 # Check h5 file structure to ID extractable information
@@ -66,8 +67,6 @@ sample_location_subsets <- list(sample_locations[1:2500],
                                 sample_locations[7501:10000], 
                                 sample_locations[10001:12500], 
                                 sample_locations[12501:length(sample_locations)])
-
-setwd("")
 
 a <- Sys.time()
 
