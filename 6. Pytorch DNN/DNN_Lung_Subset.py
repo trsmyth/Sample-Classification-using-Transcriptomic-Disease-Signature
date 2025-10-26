@@ -24,7 +24,7 @@ device = (
 # device = "cpu"
 
 # Import data isoalted, aligned, and saved as .RData
-Imported_data = pyreadr.read_r('E:/UNC Projects/DNN_Python/Total Dataset/5. MeSH Alignment/Output/Pulmonary_LCPM_Data.RData')
+Imported_data = pyreadr.read_r('')
 
 # Print the data keys
 print(Imported_data.keys())
@@ -244,4 +244,5 @@ torch.save({
             }, model_file)
 
 with open('validation_loss.json', 'w') as file:
+
     json.dump(validation_loss, file)
