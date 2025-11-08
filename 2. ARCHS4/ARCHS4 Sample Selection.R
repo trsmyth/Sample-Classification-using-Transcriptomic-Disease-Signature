@@ -13,7 +13,7 @@ colnames(Samples_of_Interest)[2] <- 'geo_accession'
 rownames(Samples_of_Interest) <- Samples_of_Interest$geo_accession
 
 # ARCHS originally accessed on 11/23/2024
-destination_file = "" # Location of ARCHS4v2.5 h5 file
+destination_file = "human_gene_v2.5.h5" # Location of ARCHS4v2.5 h5 file
 extracted_expression_file = "DiSignAtlas_Sample_Selected_expression_matrix.tsv"
 
 # Check h5 file structure to ID extractable information
@@ -140,3 +140,4 @@ save(DiSignAtlas_Samples,
 
 save(Selected_Samples,
      file = 'Selected_Samples.RData')
+
