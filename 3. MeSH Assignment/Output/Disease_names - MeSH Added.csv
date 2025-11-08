@@ -1,0 +1,173 @@
+﻿Disease_Name,Used_MeSH_Term,Tree_Position_1,Tree_Position_2,Tree_Position_3,Tree_Position_4,Tree_Position_5,Tree_Position_6,Tree_Position_7,Tree_Position_8
+Sporadic Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,C18.452.845.800.050,NA,NA,NA,NA,NA,NA,NA
+"Amyotrophic Lateral Sclerosis, Familial",Amyotrophic Lateral Sclerosis,C18.452.845.800.050,NA,NA,NA,NA,NA,NA,NA
+Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,C18.452.845.800.050,NA,NA,NA,NA,NA,NA,NA
+Allergic Asthma,Asthma,C08.127.108,C08.381.495.108,C08.674.095,C20.543.480.680.095,NA,NA,NA,NA
+Chronic Obstructive Pulmonary Disease,"Pulmonary Disease, Chronic Obstructive",C08.381.495.389,NA,NA,NA,NA,NA,NA,NA
+Eosinophilic Esophagitis,Eosinophilic Esophagitis,C20.543.480.356,NA,NA,NA,NA,NA,NA,NA
+Small Cell Lung Cancer,Small Cell Lung Carcinoma,C08.381.540.140.750,C08.785.520.100.220.750,NA,NA,NA,NA,NA,NA
+Asthma,Asthma,C08.127.108,C08.381.495.108,C08.674.095,C20.543.480.680.095,NA,NA,NA,NA
+Lyme Disease,Lyme Disease,C01.150.252.400.536,C01.150.252.400.794.352.250,C01.920.930.513,NA,NA,NA,NA,NA
+Type 2 Diabetes,"Diabetes Mellitus, Type 2",C18.452.394.750.149,NA,NA,NA,NA,NA,NA,NA
+Chronic Lymphocytic Leukemia,"Leukemia, Lymphoid",C20.683.515.528,NA,NA,NA,NA,NA,NA,NA
+Relapsing-Remitting Multiple Sclerosis,"Multiple Sclerosis, Relapsing-Remitting",C20.111.258.250.500.600,NA,NA,NA,NA,NA,NA,NA
+Multiple Sclerosis,Multiple Sclerosis,C20.111.258.250.500,NA,NA,NA,NA,NA,NA,NA
+Coeliac Disease,Celiac Disease,C18.452.603.250,NA,NA,NA,NA,NA,NA,NA
+Brucellosis,Brucellosis,C01.150.252.400.167,NA,NA,NA,NA,NA,NA,NA
+Leishmaniasis,Leishmaniasis,C01.610.752.300.500,C01.610.858.560,C01.920.813,NA,NA,NA,NA,NA
+Systemic Lupus Erythematosus,"Lupus Erythematosus, Systemic",C20.111.590,NA,NA,NA,NA,NA,NA,NA
+Chronic Rhinosinusitis,Rhinosinusitis,C01.748.749.703,C08.460.692.752.703,C08.460.799.955,C08.730.674.500,C08.730.749.703,NA,NA,NA
+Allergic Rhinitis,"Rhinitis, Allergic",C08.460.799.315,C08.674.453,C20.543.480.680.443,NA,NA,NA,NA,NA
+Schimke Immuno-Osseous Dysplasia,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Influenza,"Influenza, Human",C01.748.310,C01.925.782.620.365,C08.730.310,NA,NA,NA,NA,NA
+Ataxia Telangiectasia,Ataxia Telangiectasia,C18.452.284.060,C20.673.795.250,NA,NA,NA,NA,NA,NA
+Pitt-Hopkins Syndrome,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tuberculosis,Tuberculosis,C01.150.252.410.040.552.846,NA,NA,NA,NA,NA,NA,NA
+Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,C08.381.483.652.500,NA,NA,NA,NA,NA,NA,NA
+Juvenile Idiopathic Arthritis,"Arthritis, Juvenile",C20.111.198,NA,NA,NA,NA,NA,NA,NA
+Obesity,Obesity,C18.654.726.750.500,NA,NA,NA,NA,NA,NA,NA
+Active Tuberculosis,Tuberculosis,C01.150.252.410.040.552.846,NA,NA,NA,NA,NA,NA,NA
+Latent Tuberculosis,Latent Tuberculosis,C01.550.500,C01.150.252.410.040.552.846.122,NA,NA,NA,NA,NA,NA
+Tuberculosis Infection,Tuberculosis,C01.150.252.410.040.552.846,NA,NA,NA,NA,NA,NA,NA
+Chronic Thromboembolic Pulmonary Hypertension,"Hypertension, Pulmonary",C08.381.423,NA,NA,NA,NA,NA,NA,NA
+Pulmonary Arterial Hypertension,Pulmonary Arterial Hypertension,C08.381.423.847,NA,NA,NA,NA,NA,NA,NA
+Lung Squamous Cell Carcinoma,"Carcinoma, Non-Small-Cell Lung",C08.381.540.140.500,C08.785.520.100.220.500,NA,NA,NA,NA,NA,NA
+Pulmonary Hypertension,"Hypertension, Pulmonary",C08.381.423,NA,NA,NA,NA,NA,NA,NA
+Non-Small Cell Lung Cancer,"Carcinoma, Non-Small-Cell Lung",C08.381.540.140.500,C08.785.520.100.220.500,NA,NA,NA,NA,NA,NA
+Rheumatoid Arthritis,"Arthritis, Rheumatoid",C20.111.199,NA,NA,NA,NA,NA,NA,NA
+Frontotemporal Dementia,Frontotemporal Dementia,C18.452.845.800.300.299,NA,NA,NA,NA,NA,NA,NA
+Sjogren's Syndrome,Sjogren's Syndrome,C20.111.199.774,NA,NA,NA,NA,NA,NA,NA
+Multiple Symmetric Lipomatosis,"Lipomatosis, Multiple Symmetrical",C18.452.584.718.750,NA,NA,NA,NA,NA,NA,NA
+Kaposi Sarcoma,"Sarcoma, Kaposi",C01.925.256.466.860,NA,NA,NA,NA,NA,NA,NA
+T-Cell Prolymphocytic Leukemia,"Leukemia, Prolymphocytic, T-Cell",C20.683.515.528.565.750,C20.683.515.528.582.125,NA,NA,NA,NA,NA,NA
+Rhinitis,Rhinitis,C01.748.674,C08.460.799,C08.730.674,NA,NA,NA,NA,NA
+Cystic Fibrosis,Cystic Fibrosis,C08.381.187,NA,NA,NA,NA,NA,NA,NA
+Primary Antiphospholipid Syndrome,Antiphospholipid Syndrome,C20.111.197,NA,NA,NA,NA,NA,NA,NA
+Systemic-Onset Juvenile Idiopathic Arthritis,"Arthritis, Juvenile",C20.111.198,NA,NA,NA,NA,NA,NA,NA
+Systemic Juvenile Idiopathic Arthritis,"Arthritis, Juvenile",C20.111.199,NA,NA,NA,NA,NA,NA,NA
+Friedreich Ataxia,Friedreich Ataxia,C18.452.660.300,NA,NA,NA,NA,NA,NA,NA
+Type 1 Diabetes,"Diabetes Mellitus, Type 1",C18.452.394.750.124,C20.111.327,NA,NA,NA,NA,NA,NA
+Eosinophilic Asthma,Asthma,C08.127.108,C08.381.495.108,C08.674.095,C20.543.480.680.095,NA,NA,NA,NA
+Wiskott-Aldrich Syndrome,Wiskott-Aldrich Syndrome,C20.673.627.900,C20.673.795.875,NA,NA,NA,NA,NA,NA
+Osteomyelitis,Osteomyelitis,C01.160.495,NA,NA,NA,NA,NA,NA,NA
+Lymphoblastic Lymphoma,Precursor Cell Lymphoblastic Leukemia-Lymphoma,C20.683.515.528.600,NA,NA,NA,NA,NA,NA,NA
+T-Lymphoblastic Lymphoma,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,C20.683.515.528.600.620,NA,NA,NA,NA,NA,NA,NA
+Dengue Disease,Dengue,C01.920.852.157,C01.925.081.270,C01.925.782.350.250.214,C01.925.782.417.214,NA,NA,NA,NA
+Tuberculous Meningitis,"Tuberculosis, Meningeal",C01.150.252.223.500.937,C01.150.252.223.850.800,C01.150.252.410.040.552.846.617.200.600,C01.207.180.500.937,C01.207.180.850.800,NA,NA,NA
+Mucopolysaccharidosis Type I,Mucopolysaccharidosis I,C18.452.648.202.715.640,C18.452.648.595.600.640,NA,NA,NA,NA,NA,NA
+Lung Cancer,Lung Neoplasms,C08.381.540,C08.785.520,NA,NA,NA,NA,NA,NA
+Polyarticular Juvenile Idiopathic Arthritis,"Arthritis, Juvenile",C20.111.198,NA,NA,NA,NA,NA,NA,NA
+Oligoarticular Juvenile Idiopathic Arthritis,"Arthritis, Juvenile",C20.111.198,NA,NA,NA,NA,NA,NA,NA
+Cutaneous T Cell Lymphoma,"Lymphoma, T-Cell, Cutaneous",C20.683.515.761.480.750.800,NA,NA,NA,NA,NA,NA,NA
+Hutchinson-Gilford Progeria Syndrome,Progeria,C18.452.648.753,NA,NA,NA,NA,NA,NA,NA
+Acne Inversa,Hidradenitis Suppurativa,C01.150.252.819.420,C01.800.720.420,C01.830.499,NA,NA,NA,NA,NA
+Alexander Disease,Alexander Disease,C18.452.132.100.362.312,C18.452.648.189.362.312,NA,NA,NA,NA,NA,NA
+Hepatitis C,Hepatitis C,C01.221.250.750,C01.925.440.440,C01.925.782.350.350,NA,NA,NA,NA,NA
+Xeroderma Pigmentosum,Xeroderma Pigmentosum,C18.452.284.975,NA,NA,NA,NA,NA,NA,NA
+Classical Hodgkin Lymphoma,Hodgkin Disease,C20.683.515.761.355,NA,NA,NA,NA,NA,NA,NA
+Atopic Dermatitis,"Dermatitis, Atopic",C20.543.480.343,NA,NA,NA,NA,NA,NA,NA
+Bronchopulmonary Dysplasia,Bronchopulmonary Dysplasia,C08.381.520.750.500,NA,NA,NA,NA,NA,NA,NA
+Hepatitis B,Hepatitis B,C01.221.250.500,C01.925.256.430.400,C01.925.440.435,NA,NA,NA,NA,NA
+Hypercholesterolemia,Hypercholesterolemia,C18.452.584.500.500.396,NA,NA,NA,NA,NA,NA,NA
+Mitochondrial Myopathy; Encephalopathy; Lactic Acidosis; And Stroke-Like Episodes,Mitochondrial Myopathies,C18.452.660.560,NA,NA,NA,NA,NA,NA,NA
+Cutaneous Leishmaniasis,"Leishmaniasis, Cutaneous",C01.610.752.300.500.400,C01.610.858.560.400,C01.920.813.400,NA,NA,NA,NA,NA
+Leprosy,Leprosy,C01.150.252.410.040.552.475.371,NA,NA,NA,NA,NA,NA,NA
+Lowe Syndrome,Oculocerebrorenal Syndrome,C18.452.132.100.640,C18.452.648.151.600,C18.452.648.189.640,NA,NA,NA,NA,NA
+Mitochondrial Myopathy,Mitochondrial Myopathies,C18.452.660.560,NA,NA,NA,NA,NA,NA,NA
+Chronic Fatigue Syndrome,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Q Fever,Q Fever,C01.150.252.400.75,NA,NA,NA,NA,NA,NA,NA
+Cockayne Syndrome,Cockayne Syndrome,C18.452.284.250,NA,NA,NA,NA,NA,NA,NA
+Intestinal Graft Versus Host Disease,Graft vs Host Disease,C20.452,NA,NA,NA,NA,NA,NA,NA
+Primary Sjogren Syndrome,Sjogren's Syndrome,C20.111.199.774,NA,NA,NA,NA,NA,NA,NA
+Latent Autoimmune Diabetes In Adults,Latent Autoimmune Diabetes in Adults,C18.452.394.750.714,C20.111.576,NA,NA,NA,NA,NA,NA
+Sepsis,Sepsis,C01.757,NA,NA,NA,NA,NA,NA,NA
+Rhinosinusitis,Rhinosinusitis,C01.748.674.500,C01.748.749.703,C08.460.692.752.703,C08.460.799.955,C08.730.674.500,C08.730.749.703,NA,NA
+Chronic Mucocutaneous Candidiasis,"Candidiasis, Chronic Mucocutaneous",C01.150.703.160.088,C01.150.703.302.100,C01.800.200.100,NA,NA,NA,NA,NA
+Autoimmune Lymphoproliferative Syndrome,Autoimmune Lymphoproliferative Syndrome,C20.683.515.124,C20.111.288,NA,NA,NA,NA,NA,NA
+Juvenile Neuronal Ceroid Lipofuscinosis,Neuronal Ceroid-Lipofuscinoses,C18.452.584.563.641.509,C18.452.648.398.641.509,NA,NA,NA,NA,NA,NA
+Severe Combined Immunodeficiency,Severe Combined Immunodeficiency,C18.452.284.800,C20.673.795.750,NA,NA,NA,NA,NA,NA
+West Nile Virus Infection,West Nile Fever,C01.207.245.340.300.887,C01.207.399.750.300.887,C01.920.313.156.950,C01.920.852.500.950,C01.925.081.343.950,C01.925.182.525.300.850,C01.925.782.310.950,C01.925.782.350.250.900
+T-Cell Acute Lymphoblastic Leukemia,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,C20.683.515.528.600.620,,NA,NA,NA,NA,NA,NA
+Waldenstrom Macroglobulinemia,Waldenstrom Macroglobulinemia,C20.683.780.925,NA,NA,NA,NA,NA,NA,NA
+Thyroid Associated Opthalmopathies,Graves Ophthalmopathy,C20.111.555.500,NA,NA,NA,NA,NA,NA,NA
+Diabetic Peripheral Angiopathy,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Idiopathic Pulmonary Hypertension,"Hypertension, Pulmonary",C08.381.423,NA,NA,NA,NA,NA,NA,NA
+Eosinophilic Granulomatosis With Polyangiitis,Granulomatosis with Polyangiitis,C08.381.483.950,C20.111.193.875,NA,NA,NA,NA,NA,NA
+Lynch Syndrome,"Colorectal Neoplasms, Hereditary Nonpolyposis",C18.452.284.255,NA,NA,NA,NA,NA,NA,NA
+Diffuse Large B-Cell Lymphoma,"Lymphoma, Large B-Cell, Diffuse",C20.683.515.761.480.150.585,NA,NA,NA,NA,NA,NA,NA
+Follicular Lymphoma,"Lymphoma, Follicular",C20.683.515.761.480.350,NA,NA,NA,NA,NA,NA,NA
+Allergy,Hypersensitivity,C20.543,NA,NA,NA,NA,NA,NA,NA
+Rhinovirus Infection,Respiratory Tract Infections,C01.748,C08.730,NA,NA,NA,NA,NA,NA
+Burn-Mckeown Syndrome,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Autosomal Dominant Hyper-Ige Syndrome,Job Syndrome,C20.673.774.600,C20.673.795.688,NA,NA,NA,NA,NA,NA
+Gestational Diabetes,"Diabetes, Gestational",C18.452.394.750.448,NA,NA,NA,NA,NA,NA,NA
+Lung Tumor,Lung Neoplasms,C08.381.540,C08.785.520,NA,NA,NA,NA,NA,NA
+Adult-Onset Still Disease,"Still's Disease, Adult-Onset",C20.111.199.870,NA,NA,NA,NA,NA,NA,NA
+Langerhans Cell Histiocytosis,"Histiocytosis, Langerhans-Cell",C08.381.483.375,NA,NA,NA,NA,NA,NA,NA
+Acute Lymphoblastic Leukemia,Precursor Cell Lymphoblastic Leukemia-Lymphoma,C20.683.515.528.600,NA,NA,NA,NA,NA,NA,NA
+Metabolic Diseases,Metabolic Diseases,C18.452,NA,NA,NA,NA,NA,NA,NA
+Leigh Syndrome,Leigh Disease,C18.452.132.100.412,C18.452.648.189.412,C18.452.648.202.810.444,C18.452.660.520,NA,NA,NA,NA
+Primary Immunoglobulin A Nephropathy (Disorder),"Glomerulonephritis, IGA",C20.111.525,NA,NA,NA,NA,NA,NA,NA
+Ciliopathy,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gestational Diabetes Mellitus,"Diabetes, Gestational",C18.452.394.750.448,NA,NA,NA,NA,NA,NA,NA
+Hidradenitis Suppurativa,Hidradenitis Suppurativa,C01.150.252.819.420,C01.800.720.420,C01.830.499,NA,NA,NA,NA,NA
+Septic Shock,"Shock, Septic",C01.757.800,NA,NA,NA,NA,NA,NA,NA
+Lupus Nephritis,Lupus Nephritis,C20.111.590.560,NA,NA,NA,NA,NA,NA,NA
+Chronic Graft-Versus-Host Disease,Graft vs Host Disease,C20.452,NA,NA,NA,NA,NA,NA,NA
+Herpes Simplex Virus Encephalitis,"Encephalitis, Herpes Simplex",C01.207.245.340.350,C01.207.399.750.350,C01.925.182.525.350,C01.925.256.466.262,NA,NA,NA,NA
+Acute Graft Versus Host Disease,Graft vs Host Disease,C20.452,NA,NA,NA,NA,NA,NA,NA
+Pharyngitis,Pharyngitis,C01.748.561,C08.730.561,NA,NA,NA,NA,NA,NA
+Hemorrhagic Fever With Renal Syndrome,Hemorrhagic Fever with Renal Syndrome,C01.925.782.147.420.40,C01.925.782.417.300,NA,NA,NA,NA,NA,NA
+Chagas Disease,Chagas Disease,C01.610.752.300.900.200,C01.920.625,NA,NA,NA,NA,NA,NA
+Glycogen Storage Disease,Glycogen Storage Disease,C18.452.648.202.449,NA,NA,NA,NA,NA,NA,NA
+Influenza A (H1N1),"Influenza, Human",C01.748.310,C01.925.782.620.365,C08.730.310,NA,NA,NA,NA,NA
+Large Granular Lymphocytic Leukemia,"Leukemia, Lymphoid",C20.683.515.528,NA,NA,NA,NA,NA,NA,NA
+Japanese Encephalitis,"Encephalitis, Japanese",C01.207.245.340.300.400,C01.207.399.750.300.400,C01.920.313.156.345,C01.920.852.500.345,C01.925.081.343.345,C01.925.182.525.300.250,C01.925.782.310.345,C01.925.782.350.250.300
+Community Acquired Pneumonia,Pneumonia,C01.748.610,C08.381.677,C08.730.610,NA,NA,NA,NA,NA
+Maculopapular Lesion,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Lymphoma,Lymphoma,C20.683.515.761,NA,NA,NA,NA,NA,NA,NA
+Epstein-Barr Virus Infection,Epstein-Barr Virus Infections,C01.925.256.466.313,C01.925.928.313,NA,NA,NA,NA,NA,NA
+Candidiasis,Candidiasis,C01.150.703.160,NA,NA,NA,NA,NA,NA,NA
+Aspergillosis,Aspergillosis,C01.150.703.080,NA,NA,NA,NA,NA,NA,NA
+Mucormycosis,Mucormycosis,C01.150.703.980.600,NA,NA,NA,NA,NA,NA,NA
+Cytomegalovirus Infection,Cytomegalovirus Infections,C01.925.256.466.245,NA,NA,NA,NA,NA,NA,NA
+Acquired Immunodeficiency Syndrome,Acquired Immunodeficiency Syndrome,C01.221.250.875.040,C01.221.812.640.400.040,C01.778.640.400.040,C01.925.782.815.616.400.040,C01.925.813.400.040,C01.925.839.040,C20.673.480.040,NA
+Peanut Allergy,Peanut Hypersensitivity,C20.543.480.370.572.750,NA,NA,NA,NA,NA,NA,NA
+Food Allergy,Food Hypersensitivity,C20.543.480.370,NA,NA,NA,NA,NA,NA,NA
+Ketosis-Prone Diabetes (Mellitus),NA,NA,NA,NA,NA,NA,NA,NA,NA
+Scleroderma-Associated Interstitial Lung Disease,"Lung Diseases, Interstitial",C08.381.483,NA,NA,NA,NA,NA,NA,NA
+Malaria,Malaria,C01.610.752.530,C01.920.852.750,NA,NA,NA,NA,NA,NA
+Gingivitis,Gingivitis,C01.408,NA,NA,NA,NA,NA,NA,NA
+Invasive Aspergillosis,Invasive Pulmonary Aspergillosis,C01.150.703.080.768.750,C01.150.703.492.688,C01.150.703.534.850.750,C08.381.472.850.750,NA,NA,NA,NA
+AL Amyloidosis,Immunoglobulin Light-chain Amyloidosis,C18.452.845.500.550,C20.683.515.507,C20.683.780.565,NA,NA,NA,NA,NA
+Monoclonal Gammopathy of Undetermined Significance,Monoclonal Gammopathy of Undetermined Significance,C20.683.460.640,C20.683.780.640,NA,NA,NA,NA,NA,NA
+Multiple Myeloma,Multiple Myeloma,C20.683.515.845,C20.683.780.650,NA,NA,NA,NA,NA,NA
+IgA Nephropathy,"Glomerulonephritis, IGA",C20.111.525,NA,NA,NA,NA,NA,NA,NA
+Membranous Nephropathy,"Glomerulonephritis, Membranous",C20.111.535,NA,NA,NA,NA,NA,NA,NA
+Candidemia,Candidemia,C01.150.703.160.175.500,C01.150.703.492.500.500,C01.757.360.150,NA,NA,NA,NA,NA
+Ataxia-Telangiectasia,Ataxia Telangiectasia,C18.452.284.060,C20.673.795.250,NA,NA,NA,NA,NA,NA
+Lower Respiratory Tract Infections,Respiratory Tract Infections,C01.748,C08.730,NA,NA,NA,NA,NA,NA
+Smith-Lemli-Opitz Syndrome,Smith-Lemli-Opitz Syndrome,C18.452.584.500.93,C18.452.584.563.850,C18.452.648.398.850,C18.452.648.925.875,NA,NA,NA,NA
+Non-Bacterial Osteomyelitis,Osteomyelitis,C01.160.495,NA,NA,NA,NA,NA,NA,NA
+Infant Acute Respiratory Distress Syndrome,"Respiratory Distress Syndrome, Newborn",C08.381.840.500,C08.618.840.500,NA,NA,NA,NA,NA,NA
+Pulmonary Sarcoidosis,"Sarcoidosis, Pulmonary",C08.381.483.725,C20.543.418.575.725,NA,NA,NA,NA,NA,NA
+Pulmonary Fibrosis,Pulmonary Fibrosis,C08.381.483.652,NA,NA,NA,NA,NA,NA,NA
+Idiopathic Pulmonary Arterial Hypertension,Pulmonary Arterial Hypertension,C08.381.423.847,NA,NA,NA,NA,NA,NA,NA
+Alpha-1 Antitrypsin Deficiency,alpha 1-Antitrypsin Deficiency,C08.381.112,NA,NA,NA,NA,NA,NA,NA
+Xfe Progeroid Syndrome,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Lung Disease,Lung Diseases,C08.381,NA,NA,NA,NA,NA,NA,NA
+Giant Cell Arteritis,Giant Cell Arteritis,C20.111.258.962.800,NA,NA,NA,NA,NA,NA,NA
+POR-deficient,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Pneumonia,Pneumonia,C01.748.610,C08.381.677,C08.730.610,NA,NA,NA,NA,NA
+Bronchitis,Bronchitis,C01.748.099,C08.127.446,C08.381.495.146,C08.730.099,NA,NA,NA,NA
+Tracheal Stenosis,Tracheal Stenosis,C08.907.663,NA,NA,NA,NA,NA,NA,NA
+Rheumatic Heart Disease,Rheumatic Heart Disease,C01.150.252.410.890.731.649,NA,NA,NA,NA,NA,NA,NA
+Acute Rheumatic Fever,Rheumatic Fever,C01.150.252.410.890.731,NA,NA,NA,NA,NA,NA,NA
+Unspecified Septicemia,Sepsis,C01.757,NA,NA,NA,NA,NA,NA,NA
+Globoid Cell Leukodystrophy,"Leukodystrophy, Globoid Cell",C18.452.132.100.362.500,C18.452.132.100.435.825.590,C18.452.584.563.641.803.585,C18.452.648.189.362.500,C18.452.648.189.435.825.590,C18.452.648.398.641.803.585,C18.452.648.595.554.825.590,NA
+Sporadic Creutzfeldt-Jakob Disease,Creutzfeldt-Jakob Syndrome,C01.207.800.230,NA,NA,NA,NA,NA,NA,NA
+B-Cell Non-Hodgkin's Lymphoma,"Lymphoma, Non-Hodgkin",C20.683.515.761.480,NA,NA,NA,NA,NA,NA,NA
+Chronic Active Ebv Infection,"Hemorrhagic Fever, Ebola",C01.925.782.417.415,C01.925.782.580.250.400,NA,NA,NA,NA,NA,NA
+B-Cell Non-Hodgkin Lymphoma,"Lymphoma, Non-Hodgkin",C20.683.515.761.480,NA,NA,NA,NA,NA,NA,NA
+Congenital Central Hypoventilation Syndrome,NA,NA,NA,NA,NA,NA,NA,NA,NA
+X-Linked Adrenoleukodystrophy,Adrenoleukodystrophy,C18.452.132.100.084,C18.452.132.100.362.250,C18.452.648.189.084,C18.452.648.189.362.250,C18.452.648.663.100,NA,NA,NA
