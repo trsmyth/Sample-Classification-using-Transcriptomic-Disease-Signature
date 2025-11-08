@@ -125,50 +125,30 @@ rm(list = setdiff(ls(), c('All_sample_designations',
 
 ###################################################
 
-# Create a list of the files from your target directory
-file_list <- All_sample_designations$study.ID
-
-file_directory = '' # Directory of disease signature atlas datasets
-
-# Initiate a blank data frame, each iteration of the loop will append the data from the given file to this variable
-Samples <- list()
-
-# For each file name, read in the corresponding csv file, skipping the first row as colnames are in row 2
-for(i in 1:length(file_list)){
-    
-  # Import csv data
-  Imported_data <- read.csv(paste0(file_directory,
-                                   file_list[i], 
-                                   '_profile.csv'), 
-                            skip = 1)
+# Assign Control/disease designations to samples
+Samples <- lapply(names(Disease_Designation), function(single_study){
   
   # Isolate the sample IDs - these are GSM designations
-  Sample_ID <- colnames(Imported_data)[2:ncol(Imported_data)]
+  Sample_ID <- unlist(Disease_Designation[single_study])
   
   # Define samples as control or diseased based on metadata description from DiSignAtlas
-  Control_Disease <- c(rep('Control', 
-                           as.numeric(All_sample_designations[which(All_sample_designations$study.ID == file_list[[i]]), 
-                                                              'Control_samples'])), 
-                       
-                       rep('Disease', 
-                           as.numeric(All_sample_designations[which(All_sample_designations$study.ID == file_list[[i]]), 
-                                                              'Disease_samples'])))
+  Control_Disease <- c(rep('Control', as.numeric(All_sample_designations[single_study, 'Control_samples'])), 
+                       rep('Disease', as.numeric(All_sample_designations[single_study, 'Disease_samples'])))
   
   ifelse(length(Sample_ID) != length(Control_Disease),
          
-         Samples[[i]] <- list(Sample_ID, Control_Disease),
+         Samples <- list(Sample_ID, Control_Disease),
          
          # Combine sample names, control/disease designations, sample disease name, and sample tissue type
-         Samples[[i]] <- data.frame('Study_ID' = file_list[i],
-                                    'Sample_ID' = Sample_ID[order(match(Sample_ID, Disease_Designation[[i]]))],
-                                    'Disease_Status' = Control_Disease, 
-                                    'Disease_Name' = rep(All_sample_designations[file_list[[i]], 'Disease.Name'], length(Sample_ID)), 
-                                    'Tissue_Type' = rep(All_sample_designations[file_list[[i]], 'Tissue.Cell.Type'], length(Sample_ID))))
+         Samples <- data.frame('Study_ID' = single_study,
+                               'Sample_ID' = Sample_ID,
+                               'Disease_Status' = Control_Disease, 
+                               'Disease_Name' = rep(All_sample_designations[single_study, 'Disease.Name'], length(Sample_ID)), 
+                               'Tissue_Type' = rep(All_sample_designations[single_study, 'Tissue.Cell.Type'], length(Sample_ID))))
   
-}
-
-# Match sample names to file list
-names(Samples) <- file_list
+  return(Samples)
+  
+})
 
 # Isolate data where number of samples imported does not match the number of samples listed in metadata
 Unmatching <- Samples[sapply(Samples, class) != "data.frame"]
@@ -179,12 +159,14 @@ Samples <- Samples[sapply(Samples, class) == "data.frame"]
 ###################################################
 
 # Combine data to single data frame
-Samples_of_Interest <- do.call(rbind, Samples)
+Samples_of_Interest <- do.call(bind_rows, Samples)
+rownames(Samples_of_Interest) <- seq(1, nrow(Samples_of_Interest), by = 1)
 
 # Check if any samples are duplicated
-Duplicated_samples <- Samples_of_Interest[duplicated(Samples_of_Interest$Sample_ID), ]
+Duplicated_samples <- Samples_of_Interest[duplicated(Samples_of_Interest$Sample_ID) | duplicated(Samples_of_Interest$Sample_ID, fromLast = TRUE), ]
 
 # Remove any samples which are duplicated - This keeps first instance of the duplicated sample
 Samples_of_Interest <- Samples_of_Interest[!duplicated(Samples_of_Interest$Sample_ID), ]
 
 save(Samples_of_Interest, file = 'Samples_of_Interest.RData')
+
